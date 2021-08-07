@@ -1,5 +1,7 @@
+# @port = 5000
+@port = 8000
 
-@base = http://localhost:5000/api/v1
+@base = http://localhost:{{port}}/api/v1
 @url = {{base}}/Catalog
 
 ###
