@@ -1,0 +1,15 @@
+
+@base = http://localhost:5000/api/v1
+@url = {{base}}/Catalog
+
+###
+GET {{url}} HTTP/1.1
+Accept: application/json
+
+###
+GET {{url}}/602d2149e773f2a3990b47f5 HTTP/1.1
+Accept: application/json
+
+###
+GET {{url}}/GetProductsByCategory/Smart Phone HTTP/1.1
+Accept: application/json
