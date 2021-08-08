@@ -79,8 +79,8 @@ namespace discount.api.Repositories
 
             var affected = await connection.ExecuteAsync(
                 @"UPDATE Coupon SET
-                    ProductName = @ProductName
-                    Description = @Description
+                    ProductName = @ProductName,
+                    Description = @Description,
                     Amount = @Amount
                 WHERE Id = @Id",
                 new
